@@ -1,0 +1,19 @@
+# Lambda build artifacts
+lambda_thumbnail.zip
+PIL/
+pillow-*.dist-info/
+pillow.libs/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+
+# Docker build leftovers
+*.so
+*.pyd
+*:Zone.Identifier
