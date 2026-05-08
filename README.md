@@ -5,6 +5,12 @@
   - https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 - AWS configured (`aws configure`)
 
+## Setup
+```bash
+pip install pillow -t temp_folder
+cd temp_folder && zip -r ../lambda_thumbnail.zip . && cd ..
+```
+
 ## Terraform
 
 ### Initialize Terraform
